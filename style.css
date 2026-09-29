@@ -1,0 +1,4 @@
+function showMessage() {
+    document.getElementById("message").textContent =
+        "Welcome to WebForge 2026!";
+}
