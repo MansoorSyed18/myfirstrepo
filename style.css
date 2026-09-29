@@ -1,4 +1,26 @@
-function showMessage() {
-    document.getElementById("message").textContent =
-        "Welcome to WebForge 2026!";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f0fe;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2563eb;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
